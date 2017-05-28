@@ -1,4 +1,4 @@
-package main
+package util
 
 func removeDup(ds []string) []string {
 	switch len(ds) {

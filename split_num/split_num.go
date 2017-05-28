@@ -1,4 +1,4 @@
-package main
+package util
 
 // split m per n
 func splitN(m, n int) [][]int {
