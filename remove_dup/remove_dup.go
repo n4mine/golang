@@ -7,16 +7,16 @@ func removeDup(ds []string) []string {
 	case 1:
 		return ds
 	default:
-		var dm = make(map[string]bool)
+		var um = make(map[string]bool)
 		var res []string
 
 		for _, element := range ds {
-			dm[element] = true
+			if _, ok := um[element]; !ok {
+				um[element] = true
+				res = append(res, element)
+			}
 		}
 
-		for k := range dm {
-			res = append(res, k)
-		}
 		return res
 	}
 }
