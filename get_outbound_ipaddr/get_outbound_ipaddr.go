@@ -1,9 +1,6 @@
 package util
 
-import (
-	"net"
-	"strings"
-)
+import "net"
 
 // getOutboundIP Get preferred outbound ip of this machine
 func getOutboundIP() string {
@@ -14,9 +11,10 @@ func getOutboundIP() string {
 	defer conn.Close()
 
 	localAddr := conn.LocalAddr().String()
-	ipPort := strings.Split(localAddr, ":")
-	if len(ipPort) == 2 {
-		return ipPort[0]
+
+	if ip, _, err := net.SplitHostPort(localAddr); err != nil {
+		return ""
+	} else {
+		return ip
 	}
-	return ""
 }
