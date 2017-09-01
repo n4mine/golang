@@ -19,3 +19,6 @@
 
 ## split_int
 * 拆分一个int, 例如将12345，拆成`[]int{5,4,3,2,1}`的形式
+
+## get_jiffies
+* 获取jiffies, 只适用于Linux
