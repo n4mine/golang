@@ -9,8 +9,8 @@
 ## reverse_string
 * 反转一个字符串
 
-## split_num
-* 分割m, 每段size为n
+## split_by_n
+* 分割target, 每段size为n
 * 可用于分割请求等场景
 * 返回每个slice的start和end pos
 
