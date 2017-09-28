@@ -4,13 +4,13 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [golang toolkits(内部)](#golang-toolkits%E5%86%85%E9%83%A8)
-- [golang toolkits(外部)](#golang-toolkits%E5%A4%96%E9%83%A8)
+- [golang toolkits(一些常用的代码片段)](#golang-toolkits%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5)
+- [golang toolkits(开源的一些库)](#golang-toolkits%E5%BC%80%E6%BA%90%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%93)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-## golang toolkits(内部)
+## golang toolkits(一些常用的代码片段)
 * [get_outbound_ipaddr](./get_outbound_ipaddr) - 获取本机对外IP
 * [remove_dup](./remove_dup) - 返回指定slice的非重复版本
 * [reverse_string](./reverse_string) - 反转一个字符串
@@ -21,7 +21,7 @@
 * [split_int](./split_int) - 拆分一个int, 例如将12345，拆成`[]int{5,4,3,2,1}`的形式
 * [get_jiffies](./get_jiffies) - 获取jiffies, 只适用于Linux
 
-## golang toolkits(外部)
+## golang toolkits(开源的一些库)
 * [go-metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library
 * [Guru](http://golang.org/s/using-guru) - golang 代码导航工具
 * [go-tools](https://github.com/dominikh/go-tools#tools) - golang 代码检查工具
