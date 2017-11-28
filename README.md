@@ -21,6 +21,7 @@
 * [split_int](./split_int) - 拆分一个int, 例如将12345，拆成`[]int{5,4,3,2,1}`的形式
 * [get_jiffies](./get_jiffies) - 获取jiffies, 只适用于Linux
 * [is_power_of_two](./is_power_of_two) - 判断给定数字是否是2的N次方
+* [inverted_index](./inverted_index) - 一个简单的倒排索引DEMO
 
 ## golang toolkits(开源的一些库/工具)
 * [go-metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library
