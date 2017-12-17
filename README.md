@@ -5,7 +5,7 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [golang toolkits(一些常用的代码片段)](#golang-toolkits%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5)
-- [golang toolkits(开源的一些库/工具)](#golang-toolkits%E5%BC%80%E6%BA%90%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%93%E5%B7%A5%E5%85%B7)
+- [golang toolkits(用过的开源库/工具)](#golang-toolkits%E7%94%A8%E8%BF%87%E7%9A%84%E5%BC%80%E6%BA%90%E5%BA%93%E5%B7%A5%E5%85%B7)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -24,7 +24,7 @@
 * [inverted_index](./inverted_index) - 一个简单的倒排索引DEMO
 * [queue](./queue) - 线程安全的queue
 
-## golang toolkits(开源的一些库/工具)
+## golang toolkits(用过的开源库/工具)
 * [go-metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library
 * [Guru](http://golang.org/s/using-guru) - golang 代码导航工具
 * [go-tools](https://github.com/dominikh/go-tools#tools) - golang 代码检查工具
@@ -38,3 +38,4 @@
 * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go, support mysql,postgres,tidb,sqlite3,mssql,oracle
 * [Leaktest](https://github.com/fortytw2/leaktest) - goroutine leak detector
 * [go-torch](https://github.com/uber/go-torch) - Stochastic flame graph profiler for Go programs
+* [redigo](https://github.com/garyburd/redigo) - Go client for Redis
