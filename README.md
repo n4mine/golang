@@ -4,25 +4,19 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [golang toolkits(一些常用的代码片段)](#golang-toolkits%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5)
+- [golang toolkits(常用代码片段)](#golang-toolkits%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5)
 - [golang toolkits(用过的开源库/工具)](#golang-toolkits%E7%94%A8%E8%BF%87%E7%9A%84%E5%BC%80%E6%BA%90%E5%BA%93%E5%B7%A5%E5%85%B7)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-## golang toolkits(一些常用的代码片段)
-* [get_outbound_ipaddr](./get_outbound_ipaddr) - 获取本机对外IP
-* [remove_dup](./remove_dup) - 返回指定slice的非重复版本
-* [reverse_string](./reverse_string) - 反转一个字符串
-* [split_by_n](./split_by_n) - 分割target, 每段size为n
-    * 可用于分割请求等场景
-    * 返回每个slice的start和end pos
-* [union_slice](./union_slice) - 求2个slice的交集
-* [split_int](./split_int) - 拆分一个int, 例如将12345，拆成`[]int{5,4,3,2,1}`的形式
-* [get_jiffies](./get_jiffies) - 获取jiffies, 只适用于Linux
-* [is_power_of_two](./is_power_of_two) - 判断给定数字是否是2的N次方
-* [inverted_index](./inverted_index) - 一个简单的倒排索引DEMO
-* [queue](./queue) - 线程安全的queue
+## golang toolkits(常用代码片段)
+* [container](./container) - golang容器相关工具
+* [invertedindex](./invertedindex) - 一个简单的倒排索引DEMO
+* [numeral](./numeral) - 数学相关工具
+* [slice](./slice) - slice相关工具
+* [stringutil](./stringutil) - string相关工具
+* [sysutil](./sysutil) - 系统相关工具(主要针对\*nix)
 
 ## golang toolkits(用过的开源库/工具)
 * [go-metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library

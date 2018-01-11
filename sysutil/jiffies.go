@@ -1,4 +1,4 @@
-package util
+package sysutil
 
 /*
 #include <unistd.h>
@@ -9,6 +9,6 @@ int getJiffies() {
 */
 import "C"
 
-func getJiffies() int {
+func GetJiffies() int {
 	return int(C.getJiffies())
 }

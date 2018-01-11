@@ -1,4 +1,4 @@
-package util
+package safequeue
 
 import (
 	"container/list"

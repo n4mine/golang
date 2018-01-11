@@ -1,9 +1,9 @@
-package util
+package sysutil
 
 import "net"
 
-// getOutboundIP Get preferred outbound ip of this machine
-func getOutboundIP() string {
+// Get Get preferred outbound ip of this machine
+func GetOutboundIpaddr() string {
 	conn, err := net.Dial("udp4", "1.2.3.4:56")
 	if err != nil {
 		return ""
