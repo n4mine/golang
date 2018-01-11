@@ -11,12 +11,7 @@
 
 
 ## golang toolkits(常用代码片段)
-* [container](./container) - golang容器相关工具
-* [invertedindex](./invertedindex) - 一个简单的倒排索引DEMO
-* [numeral](./numeral) - 数学相关工具
-* [slice](./slice) - slice相关工具
-* [stringutil](./stringutil) - string相关工具
-* [sysutil](./sysutil) - 系统相关工具(主要针对\*nix)
+* [https://github.com/devtoolkits](https://github.com/devtoolkits)
 
 ## golang toolkits(用过的开源库/工具)
 * [go-metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library
