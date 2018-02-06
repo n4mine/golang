@@ -28,3 +28,4 @@
 * [Leaktest](https://github.com/fortytw2/leaktest) - goroutine leak detector
 * [go-torch](https://github.com/uber/go-torch) - Stochastic flame graph profiler for Go programs
 * [redigo](https://github.com/garyburd/redigo) - Go client for Redis
+* [gometalinter](https://github.com/alecthomas/gometalinter) - Concurrently run Go lint tools and normalise their output
