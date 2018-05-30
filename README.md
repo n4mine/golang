@@ -14,6 +14,8 @@
 * [https://github.com/devtoolkits](https://github.com/devtoolkits)
 
 ## golang toolkits(用过的开源库/工具)
+* [go/codec](https://github.com/ugorji/go) - idiomatic codec and rpc lib for msgpack, cbor, json, etc. msgpack.org[Go]
+* [RoaringBitmap](https://github.com/RoaringBitmap/roaring) - Roaring bitmaps in Go (golang)
 * [go-metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library
 * [Guru](http://golang.org/s/using-guru) - golang 代码导航工具
 * [go-tools](https://github.com/dominikh/go-tools#tools) - golang 代码检查工具
