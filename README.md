@@ -14,6 +14,8 @@
 * [https://github.com/devtoolkits](https://github.com/devtoolkits)
 
 ## golang toolkits(用过的开源库/工具)
+* [ffjson](https://github.com/pquerna/ffjson) - faster JSON serialization for Go
+* [easyjson](https://github.com/mailru/easyjson)- Fast JSON serializer for golang
 * [go/codec](https://github.com/ugorji/go) - idiomatic codec and rpc lib for msgpack, cbor, json, etc. msgpack.org[Go]
 * [RoaringBitmap](https://github.com/RoaringBitmap/roaring) - Roaring bitmaps in Go (golang)
 * [go-metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library
