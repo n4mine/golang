@@ -14,6 +14,7 @@
 * [https://github.com/devtoolkits](https://github.com/devtoolkits)
 
 ## golang toolkits(用过的开源库/工具)
+* [gin/pprof](https://github.com/gin-contrib/pprof) - gin pprof middleware
 * [ffjson](https://github.com/pquerna/ffjson) - faster JSON serialization for Go
 * [easyjson](https://github.com/mailru/easyjson)- Fast JSON serializer for golang
 * [go/codec](https://github.com/ugorji/go) - idiomatic codec and rpc lib for msgpack, cbor, json, etc. msgpack.org[Go]
